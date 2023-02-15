@@ -61,17 +61,3 @@ document.getElementById('btn-verify').addEventListener('click',function(){
         notifyFailure.style.display = 'block';
     }
 })
-
-
-function getResult(){
-    const price = "7"
-    const product = 5
-
-    const subTotal = product * price;
-
-    const tax = subTotal / 10;
-
-    const total = subTotal + tax;
-
-    return total;
-}
